@@ -1,0 +1,27 @@
+#Create file to practice the yaml files
+#KEY VALUE PAIR
+"name": "Christo"
+28: Rollno 28 is christober in cse dept
+---
+#LISTS
+- Computer networks
+- DBMS
+- Jva
+---
+#BLOCKS
+places:
+ -Chidambaram
+ -Thirunelveli
+ -Salem
+---
+# --- are used to sepearte docs
+# DATA TYPES
+# TO SPECIFIY THE DATA TYPE
+# NUMBER DT
+num: !!int 03
+binary: !!int 0b0101
+octalNum: !!int 0743
+hexa_Num: !!int x28
+commaValue: !!int +45_000
+exponential_Number: 6.023E56
+
